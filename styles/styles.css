@@ -1,0 +1,724 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@300&display=swap"); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.pageWrapper {
+  width: 100%;
+  height: 100%;
+  /* CSS smooth scroll behaviour */
+  /* overflow-y: scroll;
+  scroll-behavior: smooth; */
+}
+
+/* start of preloader */
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  /* left: 0; */
+  background-color: #1b1b1b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+}
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  border: 4px solid #fff;
+  animation: loader 2s infinite ease;
+}
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(180deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+
+  25% {
+    height: 0%;
+  }
+
+  50% {
+    height: 100%;
+  }
+
+  75% {
+    height: 100%;
+  }
+
+  100% {
+    height: 0%;
+  }
+}
+
+/* end of preloader */
+
+body {
+  margin: 0;
+  padding-top: 14px;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background-color: #000;
+  /* font-family: "Roboto Mono", monospace; */
+  /* font-family: "Roboto", monospace; */
+  /* might need this for the smooth scroll */
+  /* height: 100vh; */
+  /* overflow: hidden; */
+}
+
+.star {
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  border-radius: 100%;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move_right {
+  from {
+    transform: rotate(0deg) translateX(8px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(8px) rotate(-360deg);
+  }
+}
+
+@keyframes move_left {
+  from {
+    transform: rotate(0deg) translateX(8px) rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg) translateX(8px) rotate(360deg);
+  }
+}
+
+/* end of background */
+
+main {
+  margin-top: 50px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: white;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h3 {
+  text-align: left;
+}
+
+p {
+  line-height: 1.6em;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: rgb(202, 204, 206);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  padding-bottom: 18px;
+}
+
+.navigation {
+  background-color: #313131;
+  background-attachment: fixed;
+  opacity: 87%;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  box-shadow: 2px 2px 4px rgb(0 0 0 / 10%);
+
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  justify-content: center;
+  align-content: center;
+}
+
+.navigation__button {
+  margin: 2px;
+}
+
+.navigation__link {
+  border-radius: 15px;
+  padding: 0.2em 0.3em;
+}
+
+.navigation__link:hover {
+  color: white;
+  box-shadow: 0px 5px 50px 10px rgba(255, 255, 255, 0.7);
+}
+
+.active {
+  color: white;
+  box-shadow: 0px 5px 50px 10px rgba(255, 255, 255, 0.7);
+}
+
+.align-center {
+  text-align: center;
+}
+
+.container {
+  max-width: 680px;
+  margin: auto;
+  padding-right: 14px;
+  padding-left: 14px;
+}
+
+.page_section {
+  padding-top: 12px;
+  padding-bottom: 42px;
+}
+
+.profile__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile__name {
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-bottom: 42px;
+  font-size: 38px;
+  letter-spacing: 0.1em;
+}
+
+.profile__image {
+  width: 180px;
+  border-radius: 50%;
+  margin-bottom: 52px;
+  filter: grayscale(100%);
+  opacity: 70%;
+}
+
+.profile__description {
+  text-align: center;
+  font-size: 18px;
+  width: 340px;
+  margin: auto;
+  border-radius: 8px;
+  padding: 8px;
+  font-weight: light;
+  background-color: hsl(223, 18%, 28%);
+  color: hsl(223, 15%, 82%);
+}
+
+.balloon {
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: rgb(252, 249, 249);
+  font-size: 16px;
+  background-color: hsl(225, 3%, 47%);
+  opacity: 60%;
+}
+
+.balloon::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-bottom: 15px solid hsl(225, 3%, 47%);
+}
+
+.column_header {
+  text-align: center;
+  font-size: 32px;
+}
+
+.map__parag {
+  margin-bottom: 24px;
+}
+
+.parag {
+  text-align: center;
+  font-size: 18px;
+  color: hsl(223, 21%, 80%);
+}
+
+.list {
+  font-size: 18px;
+  color: hsl(223, 21%, 80%);
+  text-align: left;
+  list-style-type: none;
+}
+
+.list li {
+  margin: 0.5em;
+}
+
+.jobs_container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 42px;
+  flex-wrap: wrap;
+}
+
+.job {
+  cursor: pointer;
+  width: 47%;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: hsl(223, 5%, 29%);
+  opacity: 70%;
+  box-shadow: 0 2px 2px hsl(223deg 15% 12%);
+  transition: 0.1s all ease-in-out;
+  margin-bottom: 36px;
+  transition: 0.5s;
+}
+
+.job:hover {
+  /* perspective: 200px; */
+  /* transform: perspective(200px) scaleZ(1.5); */
+  opacity: 100%;
+  transform: scale(1.1);
+  box-shadow: 0px 5px 50px 3px rgba(255, 255, 255, 0.7);
+}
+
+.job__image {
+  width: 100%;
+  padding-bottom: 55%;
+  height: 0;
+  overflow: hidden;
+}
+
+.job__image__img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.job_info {
+  min-height: 130px;
+}
+
+.job__text {
+  /* padding: 12px 18px; */
+  padding: 0 18px;
+}
+
+.job__text__name {
+  margin-top: 6px;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.job__text__summary,
+.job_languages {
+  overflow: hidden;
+  width: 100%;
+  /* height: calc(width * 1.75); */
+  min-height: 3em;
+  font-size: 14px;
+  color: hsl(223, 15%, 80%);
+  font-weight: normal;
+  margin-bottom: 12px;
+}
+
+.job_languages_container {
+  background-color: rgb(55, 56, 59);
+  padding: 0px 5px;
+}
+
+.job_languages {
+  font-size: 11px;
+  min-height: 0;
+  text-align: center;
+}
+
+#contactForm {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contactRequiredFields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contactName,
+.contactEmail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+/* .contactName input:focus,
+.contactEmail input:hover {
+  box-shadow: 2px 2px 4px rgb(0 0 0 / 10%);
+} */
+
+.contactName label,
+.contactEmail label {
+  display: none;
+}
+
+.contactName input,
+.contactEmail input {
+  width: 100%;
+  border-radius: 10px;
+  height: 30px;
+  padding: 2px 10px;
+  border: none;
+  margin-bottom: 5px;
+}
+
+.contactName input:focus,
+.contactEmail input:focus {
+  outline: none;
+  transform: scale(1.02);
+  box-shadow: 0px 5px 50px 3px rgba(255, 255, 255, 0.7);
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+textarea:hover,
+textarea:focus,
+summary:hover {
+  box-shadow: 0px 5px 50px 3px rgba(255, 255, 255, 0.7);
+}
+
+#contactSubmit {
+  display: block;
+  margin: 10px auto;
+  padding: 3px 10px;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  font-weight: 550;
+  border: none;
+  margin-top: 30px;
+  background-color: hsl(195, 2%, 43%);
+  color: white;
+  cursor: pointer;
+}
+
+#contactSubmit:hover {
+  box-shadow: 0px 5px 50px 3px rgba(255, 255, 255, 0.9);
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.contactDropdown {
+  margin: 10px auto;
+}
+
+.contactDropdownText {
+  text-align: center;
+  border-bottom: rgb(211, 211, 211) solid 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 25px;
+  border-top: rgb(211, 211, 211) solid 2px;
+}
+
+#contactMessage {
+  width: 100%;
+  height: 60px;
+  margin: 5px auto;
+  text-align: left;
+  border-radius: 10px;
+  padding: 0.5em 1em;
+
+  display: none;
+}
+
+/* Hiding the summary arrow */
+/* details > summary {
+  list-style: none;
+}
+details > summary::marker {
+  display: none;
+} */
+
+#follow {
+  /* display: block; */
+  padding-top: 14px;
+  padding-bottom: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: nowrap; */
+}
+
+.links_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 50px;
+}
+
+#follow p {
+  text-align: center;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 16px; */
+  font-weight: 600;
+  font-size: 18px;
+  /* margin-right: 48px; */
+
+  border-radius: 30px;
+  padding: 0 5px;
+}
+
+.link:hover {
+  box-shadow: 0px 5px 50px 3px rgba(255, 255, 255, 0.7);
+  -webkit-transition: 500ms ease-out;
+  -moz-transition: 500ms ease-out;
+  -ms-transition: 500ms ease-out;
+  -o-transition: 500ms ease-out;
+  transition: 500ms ease-out;
+}
+
+.link__image {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  /* margin-right: 14px; */
+  background-color: hsl(195, 2%, 43%);
+  opacity: 70%;
+}
+
+.link__image__img,
+.link_wrapper span {
+  width: 16px;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.link__text {
+  display: none;
+}
+
+.footer_copyright {
+  font-size: 12px;
+  color: hsl(223, 15%, 80%);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  overflow: auto;
+  background-color: rgba(13, 2, 56, 0.308);
+
+  display: none;
+}
+
+.modalContent {
+  background-color: rgb(253, 253, 253);
+  color: rgb(4, 27, 56);
+  /* padding: 1em; */
+  position: relative;
+  width: 330px;
+  height: 250px;
+  margin: 20% auto;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.modalMessageTitle {
+  /* color: #16055f; */
+  font-weight: 550;
+  padding: 1em;
+  background-color: rgb(1, 1, 58);
+  width: 100%;
+  text-align: center;
+  line-height: 1.5em;
+
+  border-top: solid 2px #1bbff5;
+  border-right: solid 2px #1bbff5;
+  border-left: solid 2px #1bbff5;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.modalMessage {
+  padding: 1em;
+  font-weight: 500;
+}
+
+.modalClose {
+  color: gray;
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  font-size: 30px;
+}
+
+.modalClose:hover {
+  color: #000;
+}
+
+.modalCloseBtn {
+  margin: 0 auto;
+  height: 30px;
+  width: 70px;
+  display: block;
+  font-weight: 500;
+  border: none;
+  border-radius: 20px;
+  /* color: white;
+  background: #0db9ed; */
+
+  background-color: white;
+  color: #0db9ed;
+  border: solid 2px #0db9ed;
+}
+
+.modalCloseBtn:hover {
+  /* background-color: white;
+  color: #0db9ed;
+  border: solid 2px #0db9ed; */
+  color: white;
+  background: #0db9ed;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .job {
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto 20px auto;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #contactForm {
+    width: 100%;
+  }
+
+  .contactRequiredFields {
+    flex-direction: row;
+  }
+
+  .contactName,
+  .contactEmail {
+    width: 45%;
+    /* align-items: start; */
+  }
+
+  /* .contactName label,
+  .contactEmail label {
+    display: block;
+  } */
+
+  .contactDropdownText {
+    width: 75%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .links_container {
+    justify-content: space-evenly;
+  }
+
+  .link__text {
+    padding: 10px;
+    display: block;
+  }
+}
