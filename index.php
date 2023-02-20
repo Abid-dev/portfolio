@@ -79,7 +79,7 @@
                     <div class="job">
                         <a href="https://gazetteer.abdurrahmanabid.co.uk/" target="_blank">
                             <div class="job__image">
-                                <img class="job__image__img" src="images/gazetteer.png" />
+                                <img class="job__image__img" src="images/gazetteer.PNG" />
                             </div>
                             <div class="job_info">
                                 <div class="job__text">
