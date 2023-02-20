@@ -1,0 +1,16 @@
+{
+    "name": "portfolio",
+    "description": "My personal portfolio",
+    "type": "project",
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "authors": [
+        {
+            "name": "Abdur Rahman Abid",
+            "email": "your@email.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
