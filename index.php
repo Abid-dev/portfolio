@@ -109,6 +109,22 @@
                             </div>
                         </a>
                     </div>
+                    <div class="job">
+                        <a href="http://jobshop.abdurrahmanabid.co.uk/" target="_blank">
+                            <div class="job__image">
+                                <img class="job__image__img" src="images/jobshop2.png" />
+                            </div>
+                            <div class="job_info">
+                                <div class="job__text">
+                                    <h3 class="job__text__name">Job Shop</h3>
+                                    <p class="job__text__summary">A simple web app to browse manage jobs and employers</p>
+                                </div>
+                                <div class="job_languages_container">
+                                    <p class="job_languages">Made with: Python (flask), CSS (bulma), HTML, SQLite</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div id="contact" class="container page_section">
