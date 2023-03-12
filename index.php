@@ -104,7 +104,7 @@
                                     <p class="job__text__summary">A simple and easy web application to manage your company</p>
                                 </div>
                                 <div class="job_languages_container">
-                                    <p class="job_languages">Made with: HTML, CSS (bootstrap), JavaScript (jQuery), PHP, SQL</p>
+                                    <p class="job_languages">Made with: HTML, CSS (bootstrap), JavaScript (jQuery), PHP, MYSQL</p>
                                 </div>
                             </div>
                         </a>
@@ -120,7 +120,7 @@
                                     <p class="job__text__summary">A simple web app to browse manage jobs and employers</p>
                                 </div>
                                 <div class="job_languages_container">
-                                    <p class="job_languages">Made with: Python (flask), CSS (bulma), HTML, SQLite</p>
+                                    <p class="job_languages">Made with: Python (flask), CSS (bulma), JaveScript, Webpack, HTML, SQLite</p>
                                 </div>
                             </div>
                         </a>
