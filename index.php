@@ -77,7 +77,7 @@
                 <p class="parag map__parag">If you have any suggestions for any mobile or web apps, follow the links below to contact me and let me know 👊🏽🙏🏽</p>
                 <div class="jobs_container">
                     <div class="job">
-                        <a href="https://gazetteer.abdurrahmanabid.co.uk/" target="_blank">
+                        <a href="https://gazetteer.aabid.co.uk/" target="_blank">
                             <div class="job__image">
                                 <img class="job__image__img" src="images/gazetteer.PNG" />
                             </div>
@@ -94,7 +94,7 @@
                         </a>
                     </div>
                     <div class="job">
-                        <a href="http://companydirectory.abdurrahmanabid.co.uk/" target="_blank">
+                        <a href="https://companydirectory.aabid.co.uk/" target="_blank">
                             <div class="job__image">
                                 <img class="job__image__img" src="images/companyDirectory.PNG" />
                             </div>
@@ -110,7 +110,7 @@
                         </a>
                     </div>
                     <div class="job">
-                        <a href="http://jobshop.abdurrahmanabid.co.uk/" target="_blank">
+                        <a href="#" target="_blank">
                             <div class="job__image">
                                 <img class="job__image__img" src="images/jobshop2.png" />
                             </div>
