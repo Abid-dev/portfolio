@@ -37,7 +37,7 @@
         <!-- <main> -->
             <div id="aboutMe" class="page_section container">
                 <div class="align-center profile__container">
-                    <h1 class="profile__name">Abdur Rahman Abid Test</h1>
+                    <h1 class="profile__name">Abdur Rahman Abid</h1>
                     <img class="profile__image" src="images/profile.jpeg" />
                     <p class="profile__description balloon">
                         <!-- Accomidating Businesslike Insightful Developers -->
