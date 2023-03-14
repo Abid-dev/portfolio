@@ -80,7 +80,7 @@ backdrop-filter: blur(2.7px);
 
 .languages-container div {
 padding: 10px;
-background: rgb(188 197 200 / 40%);
+background: rgb(80 89 99 / 40%);
 border-radius: 3px;
 box-shadow: 1px 1px 2px 0px rgb(255 255 255 / 70%);
 backdrop-filter: blur(2.7px);
@@ -300,6 +300,7 @@ footer {
 
 .profile__image {
   width: 180px;
+  height: 180px;
   border-radius: 50%;
   margin-bottom: 52px;
   filter: grayscale(100%);
@@ -314,7 +315,7 @@ footer {
   border-radius: 8px;
   padding: 8px;
   font-weight: light;
-  background-color: hsl(223, 18%, 28%);
+  background-color: hsl(0deg 0% 27%);
   color: hsl(223, 15%, 82%);
 }
 
@@ -327,8 +328,7 @@ footer {
   max-width: 100%;
   color: rgb(252, 249, 249);
   font-size: 16px;
-  background-color: hsl(225, 3%, 47%);
-  opacity: 60%;
+  background-color: hsl(0deg 0% 27%);
 }
 
 .balloon::before {
@@ -338,7 +338,7 @@ footer {
   left: 50%;
   margin-left: -15px;
   border: 15px solid transparent;
-  border-bottom: 15px solid hsl(225, 3%, 47%);
+  border-bottom: 15px solid hsl(0deg 0% 27%);
 }
 
 .column_header {

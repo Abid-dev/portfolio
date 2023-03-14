@@ -38,7 +38,7 @@
             <div id="aboutMe" class="page_section container">
                 <div class="align-center profile__container">
                     <h1 class="profile__name">Abdur Rahman Abid Test</h1>
-                    <img class="profile__image" src="images/profile.png" />
+                    <img class="profile__image" src="images/profile.jpeg" />
                     <p class="profile__description balloon">
                         <!-- Accomidating Businesslike Insightful Developers -->
                         Hello, I'm an Ambitious Businesslike Insightful Developer (ABID) 😉 from London. This is my virtual space where I display my projects, works and anything I am passionate about 😊
@@ -133,7 +133,7 @@
                         </a>
                     </div>
                     <div class="job">
-                        <a href="#" target="_blank">
+                        <a href="https://github.com/Abid-dev/job-board-flask-bulma" target="_blank">
                             <div class="job__image">
                                 <img class="job__image__img" src="images/jobshop2.png" />
                             </div>
@@ -203,7 +203,7 @@
         <!-- </main> -->
         <footer>
             <div class="container align-center">
-                <p class="footer_copyright">© Abdur Rahman Abid 2021</p>
+                <p class="footer_copyright">© Abdur Rahman Abid <?php echo date("Y");?></p>
             </div>
         </footer>
     </div>
