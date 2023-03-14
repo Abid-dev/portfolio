@@ -148,6 +148,22 @@
                             </div>
                         </a>
                     </div>
+                    <div class="job">
+                        <a href="https://youthoftheummah.com" target="_blank">
+                            <div class="job__image">
+                                <img class="job__image__img" src="images/you.png" />
+                            </div>
+                            <div class="job_info">
+                                <div class="job__text">
+                                    <h3 class="job__text__name">Youth Of the Ummah Website</h3>
+                                    <p class="job__text__summary">A website design and created for a local youth organisation</p>
+                                </div>
+                                <div class="job_languages_container">
+                                    <p class="job_languages">Made with: HTML, CSS, JaveScript, Vanilla PHP</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div id="contact" class="container page_section">
