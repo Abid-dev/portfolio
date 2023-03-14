@@ -51,12 +51,11 @@ html {
 .glass-card-container {
   margin-top: 30px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 30px;
 }
 
 .glass-card {
-width: 50%;
 padding: 20px 10px;
 background: rgba(63, 64, 64, 0.4);
 border-radius: 8px;
@@ -68,6 +67,24 @@ backdrop-filter: blur(2.7px);
 .glass-card h3 {
   text-align: center;
   margin-bottom: 15px;
+}
+
+.languages-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.languages-container div {
+padding: 10px;
+background: rgb(128 215 245 / 40%);
+border-radius: 3px;
+box-shadow: 1px 1px 2px 0px rgb(255 255 255 / 70%);
+backdrop-filter: blur(2.7px);
+
 }
 
 @keyframes loader {
@@ -329,7 +346,7 @@ footer {
   font-size: 32px;
 }
 
-.map__parag {
+/* .map__parag {
   margin-bottom: 24px;
 }
 
@@ -337,7 +354,7 @@ footer {
   text-align: center;
   font-size: 18px;
   color: hsl(223, 21%, 80%);
-}
+} */
 
 .list {
   font-size: 18px;

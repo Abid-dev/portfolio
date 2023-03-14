@@ -50,11 +50,41 @@
                             I am a logical thinker, problem solver, motivator and a team player. I deem every difficulty as an opportunity to improve. I have an extreme thirst and passion for programming, progression and productivity in general. It is my passion for the latter two which drew me to fall in love with art of programming.
                             </p>
                         </div>
-                        <div class="glass-card">
+                        <!-- <div class="glass-card">
                             <h3>Languages I Work With</h3>
                             <p class="parag map__parag">
                                 At this stage, I have learnt and covered HTML, CSS, JavaScript (including fundamentals of React and Node), SQL, PHP, Python, C# and Java predominantly with the Object-oriented programming paradigm. Now pursuing mastery in this craft, I am building projects and working on applications to materialise and further my knowledge. At whichever stage, I am always traversing the path of progression
                             </p>
+                        </div> -->
+                        <div class="glass-card">
+                            <h3>Languages & Technologies</h3>
+                            <h4>Used @ Work</h4>
+                            <div class="languages-container">
+                                <div>HTML</div>
+                                <div>CSS</div>
+                                <div>JavaScript</div>
+                                <div>PHP</div>
+                                <div>Laravel</div>
+                                <div>Yii2</div>
+                                <div>jQuery</div>
+                                <div>Vue.js</div>
+                                <div>MYSQL</div>
+                                <div>Postgresql</div>
+                                <div>Bootstrap</div>
+                            </div>
+                            <h4>Others Used In Personal Projects</h4>
+                            <div class="languages-container">
+                                <div>Python</div>
+                                <div>Flask</div>
+                                <div>Bulma</div>
+                                <div>Webpack</div>
+                                <div>Tailwind</div>
+                            </div>
+                            <h4>Others Learnt Without Projects</h4>
+                            <div class="languages-container">
+                                <div>Java</div>
+                                <div>C#</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -165,7 +195,7 @@
                         </a>
                     </div>
                 </div>
-                <p>Feel free to contact me on any of these platforms 🙏🏽</p>
+                <p>Feel free to contact me on any of these platforms 🙌🏼</p>
             </div>
         <!-- </main> -->
         <footer>
