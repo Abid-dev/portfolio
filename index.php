@@ -81,6 +81,7 @@
                                 <div>Webpack</div>
                                 <div>Tailwind</div>
                                 <div>Docker</div>
+                                <div>SQLite</div>
                             </div>
                             <h4>Others Learnt Without Projects</h4>
                             <div class="languages-container">
