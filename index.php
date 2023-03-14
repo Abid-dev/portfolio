@@ -43,30 +43,20 @@
                         <!-- Accomidating Businesslike Insightful Developers -->
                         Hello, I'm an Ambitious Businesslike Insightful Developer (ABID) 😉 from London. This is my virtual space where I display my projects, works and anything I am passionate about 😊
                     </p>
-                    <h3>Profile</h3>
-                    <p class="parag map__parag">
-                    I am a logical thinker, problem solver, motivator and a team player. I deem every difficulty as an opportunity to improve. I have an extreme thirst and passion for programming, progression and productivity in general. It is my passion for the latter two which drew me to fall in love with art of programming.
-                    </p>
-                    <h3>Languages I Work With</h3>
-                    <p class="parag map__parag">
-                        At this stage, I have learnt and covered HTML, CSS, JavaScript (including fundamentals of React and Node), SQL, PHP, Python, C# and Java predominantly with the Object-oriented programming paradigm. Now pursuing mastery in this craft, I am building projects and working on applications to materialise and further my knowledge. At whichever stage, I am always traversing the path of progression
-                    </p>
-                    <!-- <h3>Languages I Work With</h3>
-                    <ul class="list">
-                        <li>HTML & CSS</li>
-                        <li>JavaScript
-                            <ul>
-                                <li>Node.js</li>
-                                <li>React</li>
-                            </ul>
-                        </li>
-                        <li>Python</li>
-                        <li>Java</li>
-                        <li>C#</li>
-                    </ul> -->
-                    <!-- <p class="parag map__parag">
-                    I have learnt the latter two predominantly in the object oriented programming paradigm
-                    </p> -->
+                    <div class="glass-card-container">
+                        <div class="glass-card">
+                            <h3>Profile</h3>
+                            <p class="parag map__parag">
+                            I am a logical thinker, problem solver, motivator and a team player. I deem every difficulty as an opportunity to improve. I have an extreme thirst and passion for programming, progression and productivity in general. It is my passion for the latter two which drew me to fall in love with art of programming.
+                            </p>
+                        </div>
+                        <div class="glass-card">
+                            <h3>Languages I Work With</h3>
+                            <p class="parag map__parag">
+                                At this stage, I have learnt and covered HTML, CSS, JavaScript (including fundamentals of React and Node), SQL, PHP, Python, C# and Java predominantly with the Object-oriented programming paradigm. Now pursuing mastery in this craft, I am building projects and working on applications to materialise and further my knowledge. At whichever stage, I am always traversing the path of progression
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div id="projects" class="container page_section">
