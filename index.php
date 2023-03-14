@@ -71,6 +71,7 @@
                                 <div>MYSQL</div>
                                 <div>Postgresql</div>
                                 <div>Bootstrap</div>
+                                <div>git</div>
                             </div>
                             <h4>Others Used In Personal Projects</h4>
                             <div class="languages-container">
@@ -79,6 +80,7 @@
                                 <div>Bulma</div>
                                 <div>Webpack</div>
                                 <div>Tailwind</div>
+                                <div>Docker</div>
                             </div>
                             <h4>Others Learnt Without Projects</h4>
                             <div class="languages-container">
