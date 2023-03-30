@@ -14,7 +14,7 @@
     <script src="https://kit.fontawesome.com/f26bb953d6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/styles.css?<?php echo date("YmdHis");?>" type="text/css">
     </link>
-    <title>Abid's Portfolio</title> 
+    <title>Abid | Software Developer</title> 
     <link rel="shortcut icon" type="image/jpg" href="favicon.png"/> 
 </head>
 <body class="stars">
