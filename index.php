@@ -191,20 +191,20 @@
                 <div class="links_container">
                     <div class="link_wrapper">
                         <a href="https://www.linkedin.com/in/abdur-rahman-abid-935120196/" target="_blank" class="link">
-                            <div class="link__image">
+                            <div class="link__image" style="background-color: #0b66c2; opacity: 100%">
                                 <i class="fab fa-linkedin-in"></i>
                             </div>
                             <div class="link__text">Linkedin</div>
                         </a>
                     </div>
-                    <div class="link_wrapper">
+                    <!-- <div class="link_wrapper">
                         <a href="https://www.indiehackers.com/Abid_dev" target="_blank" class="link">
                             <div class="link__image">
                                 <span>IH</span>
                             </div>
                             <div class="link__text">Indie Hackers</div>
                         </a>
-                    </div>
+                    </div> -->
                     <div class="link_wrapper">
                         <a href="https://github.com/Abid-dev" target="_blank" class="link">
                             <div class="link__image">
