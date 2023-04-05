@@ -768,10 +768,6 @@ details > summary::marker {
 }
 
 @media only screen and (min-width: 500px) {
-  .links_container {
-    justify-content: space-evenly;
-  }
-
   .link__text {
     padding: 10px;
     display: block;

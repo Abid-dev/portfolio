@@ -190,7 +190,6 @@
             </form>
             </div>
             <div id="follow" class="container page_section">
-                <h2 class="column_header">Follow Me</h2>
                 <div class="links_container">
                     <div class="link_wrapper">
                         <a href="https://www.linkedin.com/in/abdur-rahman-abid-935120196/" target="_blank" class="link">
@@ -217,7 +216,6 @@
                         </a>
                     </div>
                 </div>
-                <p>Feel free to contact me on any of these platforms 🙌🏼</p>
             </div>
         <!-- </main> -->
         <footer>
