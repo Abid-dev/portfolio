@@ -231,6 +231,22 @@ footer {
   padding-bottom: 18px;
 }
 
+.aboutme-main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutme-me {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .navigation {
   background-color: #313131;
   background-attachment: fixed;

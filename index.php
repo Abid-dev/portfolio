@@ -37,12 +37,15 @@
         <!-- <main> -->
             <div id="aboutMe" class="page_section container">
                 <div class="align-center profile__container">
-                    <h1 class="profile__name">Abdur Rahman Abid</h1>
-                    <img class="profile__image" src="images/profile.jpeg" />
-                    <p class="profile__description balloon">
-                        <!-- Accomidating Businesslike Insightful Developers -->
-                        Hello, I'm an Ambitious Businesslike Insightful Developer (ABID) 😉 from London. This is my virtual space where I display my projects, works and anything I am passionate about 😊
-                    </p>
+                    <div class="aboutme-main">
+                        <h1 class="profile__name">Abdur Rahman Abid</h1>
+                        <div class="aboutme-me">
+                            <img class="profile__image" src="images/profile.jpeg" />
+                            <p class="profile__description balloon">
+                                Hello, I'm an Ambitious Businesslike Insightful Developer (ABID) 😉 from London. This is my virtual space where I display my projects, works and anything I am passionate about 😊
+                            </p>
+                        </div>
+                    </div>
                     <div class="glass-card-container">
                         <div class="glass-card">
                             <h3>Profile</h3>
