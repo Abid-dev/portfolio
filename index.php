@@ -25,13 +25,13 @@
     <div class="pageWrapper">
         <header class="navigation  align-center">
                 <div class="navigation__button ">
-                    <a href="#aboutMe" class="navigation__link  aboutMe">About me</a>
+                    <a href="#aboutMe" class="navigation__link  aboutMe">About</a>
                 </div>
                 <div class="navigation__button">
                     <a href="#projects" class="navigation__link projects">Projects</a>
                 </div>
                 <div class="navigation__button">
-                    <a href="#contact" class="navigation__link follow">Contact me</a>
+                    <a href="#contact" class="navigation__link follow">Contact</a>
                 </div>
         </header>
         <!-- <main> -->
