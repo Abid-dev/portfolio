@@ -97,10 +97,8 @@
             </div>
             <div id="projects" class="container page_section">
                 <h2 class="column_header">Apps and Projects</h2>
-                <p class="parag map__parag">
-                    The following are a couple of projects I have worked on. Check them out! I am sure you will enjoy and benefit from them as I did making them 👊🏽🙌🏽
-                </p>
-                <p class="parag map__parag">If you have any suggestions for any mobile or web apps, follow the links below to contact me and let me know 👊🏽🙏🏽</p>
+                <p class="parag map__parag">The following are a couple of projects I have worked on. Check them out!  👊🏽🙌🏽</p>
+                <p class="parag map__parag">If you have any suggestions for any mobile or web apps, drop me a message in the contact section below 👊🏽🙏🏽</p>
                 <div class="jobs_container">
                     <div class="job">
                         <a href="https://gazetteer.aabid.co.uk/" target="_blank">
@@ -136,7 +134,7 @@
                         </a>
                     </div>
                     <div class="job">
-                        <a href="https://github.com/Abid-dev/job-board-flask-bulma" target="_blank">
+                        <a href="https://github.com/Abid-dev/job-shop" target="_blank">
                             <div class="job__image">
                                 <img class="job__image__img" src="images/jobshop2.png" />
                             </div>
