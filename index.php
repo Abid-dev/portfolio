@@ -97,8 +97,8 @@
             </div>
             <div id="projects" class="container page_section">
                 <h2 class="column_header">Apps and Projects</h2>
-                <p class="parag map__parag">The following are a couple of projects I have worked on. Check them out!  👊🏽🙌🏽</p>
-                <p class="parag map__parag">If you have any suggestions for any mobile or web apps, drop me a message in the contact section below 👊🏽🙏🏽</p>
+                <p class="parag map__parag" style="text-align:center">The following are a couple of projects I have worked on. Check them out!  👊🏽🙌🏽</p>
+                <p class="parag map__parag" style="text-align:center">If you have any suggestions for any mobile or web apps, drop me a message in the contact section below 👊🏽🙏🏽</p>
                 <div class="jobs_container">
                     <div class="job">
                         <a href="https://gazetteer.aabid.co.uk/" target="_blank">
