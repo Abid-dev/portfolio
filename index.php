@@ -25,6 +25,9 @@
     <div class="pageWrapper">
         <header class="navigation  align-center">
                 <div class="navigation__button ">
+                    <a href="#home" class="navigation__link  home">Home</a>
+                </div>
+                <div class="navigation__button ">
                     <a href="#aboutMe" class="navigation__link  aboutMe">About</a>
                 </div>
                 <div class="navigation__button">
