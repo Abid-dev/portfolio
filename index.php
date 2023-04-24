@@ -166,7 +166,7 @@
                     </div>
                 </div>
             </div>
-            <div id="contact" class="container page_section">
+            <div id="contact" class="container">
                 <h2 class="column_header">Contact Me</h2>
                 <form id="contactForm">
                     <div class="contactRequiredFields">
@@ -186,7 +186,7 @@
                     <button type="submit" id="contactSubmit">Send</button>
             </form>
             </div>
-            <div id="follow" class="container page_section">
+            <div id="follow" class="container">
                 <div class="links_container">
                     <div class="link_wrapper">
                         <a href="https://www.linkedin.com/in/abdur-rahman-abid-935120196/" target="_blank" class="link">

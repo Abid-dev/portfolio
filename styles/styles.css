@@ -231,8 +231,9 @@ footer {
   padding-bottom: 18px;
 }
 
-.aboutme-main {
-  height: 100vh;
+/* .aboutme-main { */
+  .page_section {
+    min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
