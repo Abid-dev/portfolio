@@ -35,7 +35,7 @@
                 </div>
         </header>
         <!-- <main> -->
-            <div id="home" class="page_section container">
+            <div id="home" class="page_section section container">
                 <div class="align-center profile__container">
                     <div class="aboutme-main">
                         <h1 class="profile__name">Abdur Rahman Abid</h1>
@@ -49,7 +49,7 @@
                 </div>
             </div>
 
-            <div id="aboutMe" class="page_section container">
+            <div id="aboutMe" class="page_section section container">
                 <div class="align-center profile__container">
                     <div class="glass-card-container">
                         <div class="glass-card">
@@ -94,7 +94,7 @@
                     </div>
                 </div>
             </div>
-            <div id="projects" class="container page_section">
+            <div id="projects" class="container page_section section">
                 <h2 class="column_header">Apps and Projects</h2>
                 <p class="parag map__parag" style="text-align:center">The following are a couple of projects I have worked on. Check them out!  👊🏽🙌🏽</p>
                 <p class="parag map__parag" style="text-align:center">If you have any suggestions for any mobile or web apps, drop me a message in the contact section below 👊🏽🙏🏽</p>
@@ -166,7 +166,7 @@
                     </div>
                 </div>
             </div>
-            <div id="contact" class="container">
+            <div id="contact" class="container section">
                 <h2 class="column_header">Contact Me</h2>
                 <form id="contactForm">
                     <div class="contactRequiredFields">
