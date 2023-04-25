@@ -44,9 +44,7 @@
                         <h1 class="profile__name">Abdur Rahman Abid</h1>
                         <div class="aboutme-me">
                             <img class="profile__image" src="images/profile.jpeg" />
-                            <p class="profile__description balloon">
-                                Hello, I'm an Ambitious Businesslike Insightful Developer (ABID) 😉 from London. This is my virtual space where I display my projects, works and anything I am passionate about 😊
-                            </p>
+                            <p class="profile__description balloon" id="balloon-profile-desc"></p>
                         </div>
                     </div>
                 </div>

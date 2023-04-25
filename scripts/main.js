@@ -172,3 +172,17 @@ function validate() {
 }
 
 // contactSubmitBtn.on("click", validate);
+
+let i = 0;
+const txt = `Hello, I'm an Ambitious Businesslike Insightful Developer (ABID) 😉 from London. This is my virtual space where I display my projects, works and anything I am passionate about 😊`;
+const speed = 50; /* The speed/duration of the effect in milliseconds */
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("balloon-profile-desc").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
+typeWriter();
