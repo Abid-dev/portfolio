@@ -44,7 +44,9 @@
                         <h1 class="profile__name">Abdur Rahman Abid</h1>
                         <div class="aboutme-me">
                             <img class="profile__image" src="images/profile.jpeg" />
-                            <p class="profile__description balloon" id="balloon-profile-desc"></p>
+                            <div class="ballon-container">
+                                <p class="profile__description balloon" id="balloon-profile-desc"></p>
+                            </div>
                         </div>
                     </div>
                 </div>
