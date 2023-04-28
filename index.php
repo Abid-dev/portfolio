@@ -43,7 +43,7 @@
                     <div class="aboutme-main">
                         <h1 class="profile__name">Abdur Rahman Abid</h1>
                         <div class="aboutme-me">
-                            <img class="profile__image" src="images/profile.jpeg" />
+                            <div class="profile-image-container"><img class="profile__image" src="images/profile.jpeg"/></div>
                             <div class="ballon-container">
                                 <p class="profile__description balloon" id="balloon-profile-desc"></p>
                             </div>

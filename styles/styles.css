@@ -231,8 +231,7 @@ footer {
   padding-bottom: 18px;
 }
 
-/* .aboutme-main { */
-  .page_section {
+.page_section {
     min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -246,6 +245,20 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.aboutme-me div {
+  height: 50%;
+}
+
+.aboutme-me .profile-image-container{
+  display: flex;
+  align-items: end;
+}
+
+.aboutme-me .ballon-container{
+  display: flex;
+  align-items: start;
 }
 
 .navigation {
@@ -318,8 +331,8 @@ footer {
 .profile__image {
   width: 180px;
   height: 180px;
+  margin-bottom: 50px;
   border-radius: 50%;
-  margin-bottom: 52px;
   filter: grayscale(100%);
   opacity: 70%;
 }
